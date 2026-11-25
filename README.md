@@ -2,8 +2,6 @@
 
 The Homebrew formula of [`mutation`](https://github.com/mutationhq/cli), Mutation's command line, for macOS ARM64 and Linux x64 and ARM64 (glibc 2.28 or newer).
 
-> **Not published yet.** `Formula/mutation.rb` arrives with the first release, 0.1.0. Until then, the commands below do not work.
-
 ## Install
 
 By installing or using `mutation` you accept the [Mutation CLI License](https://github.com/mutationhq/cli/blob/main/LICENSE-BINARY) (see [Licence](#licence)).
@@ -13,6 +11,16 @@ brew install mutationhq/tap/mutation
 ```
 
 Upgrade with `brew upgrade mutationhq/tap/mutation`. Always give the full name: a formula named `mutation` elsewhere, if one ever appears, is not Mutation's.
+
+## Documentation
+
+Everything about `mutation` itself lives in [mutationhq/cli](https://github.com/mutationhq/cli):
+
+- [Try it](https://github.com/mutationhq/cli#try-it): install, then verify a change and query your code
+- [Commands](https://github.com/mutationhq/cli/blob/main/docs/commands.md) and [configuration](https://github.com/mutationhq/cli/blob/main/docs/configuration.md)
+- [Installation](https://github.com/mutationhq/cli/blob/main/docs/installation.md), including updates and how Homebrew installs are kept current
+- [Agent skills](https://github.com/mutationhq/cli/tree/main/skills/mutation) for Claude Code, Codex and Kiro
+- [Releases](https://github.com/mutationhq/cli/releases) and the [changelog](https://github.com/mutationhq/cli/blob/main/CHANGELOG.md)
 
 ## How the formula is kept
 
